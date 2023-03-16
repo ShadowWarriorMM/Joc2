@@ -1,0 +1,5 @@
+res://default_env.tres
+res://Joc.tscn
+res://Habilitats.gd
+res://Personatge.gd
+res://Vida3.gd

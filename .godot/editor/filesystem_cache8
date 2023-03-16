@@ -1,0 +1,91 @@
+2a60927148abd1d33b818b535e306557
+::res://::1677747146
+area.gd::GDScript::-1::1677971950::0::1::::<>Area2D<>::
+area.tscn::PackedScene::194091367055919083::1678023790::0::1::::<><>::
+area_bona.tscn::PackedScene::8124788797739260005::1678023798::0::1::::<><>::
+area_per_mal_2.tscn::PackedScene::8132254826504623796::1678023800::0::1::::<><>::
+Armstrong.gd::GDScript::-1::1678020726::0::1::::<>CharacterBody2D<>::
+Cançó.gd::GDScript::-1::1678390248::0::1::::<>AudioStreamPlayer2D<>::
+colisió_caixa.tscn::PackedScene::7234319288409899707::1678287228::0::1::::<><>::uid://dwf2xoxldanx3
+Cor vermell.png::CompressedTexture2D::7217009074314728513::1678020532::1678026340::1::::<><>::
+default_env.tres::Environment::2673150640681258434::1678625492::0::1::::<><>::
+Explicacio_bloqueig.gd::GDScript::-1::1678387750::0::1::::<>RichTextLabel<>::
+fondo_barra.png::CompressedTexture2D::3230501844707398259::1677930626::1677930626::1::::<><>::
+Fons.gd::GDScript::-1::1678220606::0::1::::<>Sprite2D<>::
+Fons.jpg::CompressedTexture2D::165310236704809749::1677784090::1677784106::1::::<><>::
+Fons.tscn::PackedScene::4245788908207822570::1677784282::0::1::::<><>::uid://cmcvutt5vom4
+Habilitats.gd::GDScript::-1::1678625494::0::1::::<>RichTextLabel<>::
+Hyper Street Fighter II - CPS2 - Guile Stage.mp3::AudioStreamMP3::5232908841203048597::1678224986::1678225194::1::::<><>::
+icon.png::CompressedTexture2D::8689979765112906819::1677747160::1677770822::1::::<><>::
+Inici.gd::GDScript::-1::1678389338::0::1::::<>RichTextLabel<>::
+Instruccions1.gd::GDScript::-1::1678387890::0::1::::<>RichTextLabel<>::
+Instruccions2.gd::GDScript::-1::1678389812::0::1::::<>RichTextLabel<>::
+Joc.gd::GDScript::-1::1678220314::0::1::::<>Node2D<>::
+Joc.tscn::PackedScene::1509904397850349068::1678625492::0::1::::<><>::uid://cmcvutt5vom4<>uid://ckmje1omj81el<>uid://c2p1rql77xysj<>uid://s2407lugeo<>res://Cançó.gd<>uid://h3i7op055kqt<>uid://bo38jku2yjb44<>res://Vida.gd<>uid://tmh78ipywy3o<>res://Vida_segona.gd<>uid://da28c5kik8n4l<>res://Vida_tercera.gd<>uid://cyekfpi2076au<>res://Vida_segona_primera.gd<>res://Vida4.gd<>res://Vida_segona_segona.gd<>res://Vida5.gd<>res://Vida6.gd<>res://Vida_segona_tercera.gd<>uid://c5a8nmlwxybsy<>uid://btivpsndnxido<>res://Instruccions2.gd<>res://Habilitats.gd<>res://Inici.gd
+Node2D2.gd::GDScript::-1::1677967026::0::1::::<>Sprite2D<>::
+Node2D.tscn::PackedScene::4805713950266670478::1678023804::0::1::::<><>::
+Paret_esquerra.tscn::PackedScene::1142685571919550::1678213140::0::1::::<><>::uid://c44pedkkbkif2
+Persoatge2.gd::GDScript::-1::1678385550::0::1::::<>CharacterBody2D<>::
+Persoatge2.tscn::PackedScene::1358844472869141430::1678349184::0::1::::<><>::res://Persoatge2.gd<>uid://dscyv5jt6uxph<>uid://cfvwodt16pm31<>uid://esd0dsfb2epf<>uid://b3y2ob8kj4rcm<>uid://s3fh5nvqqbev<>uid://dkia6racbdw0r
+Personatge2.tscn::PackedScene::13342967498601305::1678020742::0::1::::<><>::res://Armstrong.gd<>res://Senador armstrong.png<>uid://djwl2ltjxpxn0<>uid://dn4lbwqhafkhw<>res://Senador armstrong (3).png
+Personatge.gd::GDScript::-1::1678625494::0::1::::<>CharacterBody2D<>::
+Personatge.tscn::PackedScene::6700515671096363973::1678390462::0::1::::<><>::uid://cqjldlpq8qkbq<>res://Personatge.gd<>uid://dgni8nw7wu566<>res://Spritesheet.gd<>uid://c1awk4o4se80<>uid://b3y2ob8kj4rcm<>uid://dg1xw4atw0kga<>uid://br5dy6mwqcb5d<>uid://ge0nkdy4gh35
+Plataforma.png::CompressedTexture2D::7912944842898212486::1677783726::1677783730::1::::<><>::
+Plataforma.tscn::PackedScene::5500057320718705939::1678023786::0::1::::<><>::uid://dk0dbsta7nxac
+Power_up.gd::GDScript::-1::1678390460::0::1::::<>Area2D<>::
+power_up.tscn::PackedScene::3737826544262215740::1678390460::0::1::::<><>::res://Power_up.gd<>uid://da28c5kik8n4l<>uid://crcyrl50rq3kq<>uid://ck8u1qw65xoil
+progreso_barra.png::CompressedTexture2D::3481879324857598791::1677930632::1677930632::1::::<><>::
+RichTextLabel3.gd::GDScript::-1::1678349186::0::1::::<>RichTextLabel<>::
+Senador armstrong.png::CompressedTexture2D::3566714315687805827::1677866300::1678023954::1::::<><>::
+Spritesheet.gd::GDScript::-1::1678226442::0::1::::<>AnimatedSprite2D<>::
+terra.tscn::PackedScene::3257264910425870663::1677943462::0::1::::<><>::uid://brnd2dmd27hrn
+Vida1.gd::GDScript::-1::1678030098::0::1::::<>AnimatedSprite2D<>::
+Vida2.gd::GDScript::-1::1678029952::0::1::::<>AnimatedSprite2D<>::
+Vida3.gd::GDScript::-1::1678625494::0::1::::<>AnimatedSprite2D<>::
+Vida4.gd::GDScript::-1::1678212354::0::1::::<>AnimatedSprite2D<>::
+Vida5.gd::GDScript::-1::1678212354::0::1::::<>AnimatedSprite2D<>::
+Vida6.gd::GDScript::-1::1678212356::0::1::::<>AnimatedSprite2D<>::
+Vida.gd::GDScript::-1::1678031390::0::1::::<>AnimatedSprite2D<>::
+Vida_segona.gd::GDScript::-1::1678288324::0::1::::<>AnimatedSprite2D<>::
+Vida_segona_primera.gd::GDScript::-1::1678031458::0::1::::<>AnimatedSprite2D<>::
+Vida_segona_segona.gd::GDScript::-1::1678226444::0::1::::<>AnimatedSprite2D<>::
+Vida_segona_tercera.gd::GDScript::-1::1678031706::0::1::::<>AnimatedSprite2D<>::
+Vida_tercera.gd::GDScript::-1::1678288326::0::1::::<>AnimatedSprite2D<>::
+::res://Armstrong/::1677878630
+Pose_normal2.png::CompressedTexture2D::4337060445983841248::1677878922::1677878924::1::::<><>::
+Pose_normal.png::CompressedTexture2D::8175412919196408270::1677878640::1677878642::1::::<><>::
+Retall.png::CompressedTexture2D::7837094665315179639::1677879386::1677879390::1::::<><>::
+::res://Audios/::1678119680
+010707068_prev.mp3::AudioStreamMP3::4787838119785580916::1678213382::1678213434::1::::<><>::
+Atacar_espasa.mp3::AudioStreamMP3::7910015466088593209::1678119388::1678120306::1::::<><>::
+Audio_bo.mp3::AudioStreamMP3::7877721762092460835::1678227128::1678227182::1::::<><>::
+Cançó fons.mp3::AudioStreamMP3::4770554723238382996::1678219968::1678220000::1::::<><>::
+Cop.wav::AudioStreamWAV::1321519444878540417::1678120536::1678120600::1::::<><>::
+Cop_impacte.mp3::AudioStreamMP3::7635506236883409020::1678120430::1678120600::1::::<><>::
+Espasa_soroll.mp3::AudioStreamMP3::7607777409124671669::1678213538::1678213606::1::::<><>::
+Hyper Street Fighter II - CPS2 - Guile Stage.mp3::AudioStreamMP3::6466248026082553472::1678224986::1678225194::1::::<><>::
+Mal_espasa.mp3::AudioStreamMP3::318141155557237019::1678119496::1678120308::1::::<><>::
+Mort_snake.mp3::AudioStreamMP3::4402917835544242188::1678121022::1678121074::1::::<><>::
+Para_el_temps.mp3::AudioStreamMP3::7678809747197784362::1678120300::1678120600::1::::<><>::
+Temps_retorna.mp3::AudioStreamMP3::430932243981722162::1678210252::1678210304::1::::<><>::
+Voicy_When I'm finished, you're next.mp3::AudioStreamMP3::3484620204968573639::1678226712::1678226726::1::::<><>::
+Za_wardo.mp3::AudioStreamMP3::3641789015976010707::1678122882::1678122920::1::::<><>::
+::res://Fotos/::1678019190
+3 cors (1).png::CompressedTexture2D::904466779113172601::1678019954::1678019970::1::::<><>::
+Barra de vida.tscn::PackedScene::4751853559094073567::1677931212::0::1::::<><>::uid://bma45m1gyswf8<>uid://dji6itdxhn7uq<>uid://bpuwbqunnij40
+barra_de_vida.tscn::PackedScene::7054260213766078133::1677931038::0::1::::<><>::uid://bma45m1gyswf8<>uid://dji6itdxhn7uq<>uid://bpuwbqunnij40
+borde_barra.png::CompressedTexture2D::7809374182614056112::1677930628::1678019310::1::::<><>::
+Caixa_misteriosa.png::CompressedTexture2D::5971668656323899524::1678227772::1678227840::1::::<><>::
+Cor gtis (1).png::CompressedTexture2D::3428887362034439715::1678020418::1678020546::1::::<><>::
+Cor sencer.png::CompressedTexture2D::1003154147024701641::1678019154::1678019306::1::::<><>::
+Foc-modified.png::CompressedTexture2D::5149111805474897809::1678212464::1678212484::1::::<><>::
+Foc.png::CompressedTexture2D::6880534200913541040::1678091308::1678091334::1::::<><>::
+Fons_blanc_i_negre.jpg::CompressedTexture2D::7396753936514213191::1678210884::1678210924::1::::<><>::
+lava.png::CompressedTexture2D::1602311050957353578::1677772664::1678019306::1::::<><>::
+Parets.png::CompressedTexture2D::6869102859298178949::1677772060::1678019306::1::::<><>::
+Raig.png::CompressedTexture2D::5544115915956163275::1678287634::1678287646::1::::<><>::
+Senador armstrong (3).png::CompressedTexture2D::8428286292079660305::1678017898::1678019310::1::::<><>::
+Senador armstrong.png::CompressedTexture2D::5168498481511836266::1677878554::1678019310::1::::<><>::
+Spitesheet bo.png::CompressedTexture2D::1102735820004488858::1677877544::1678019310::1::::<><>::
+Spritesheet.png::CompressedTexture2D::5915116111384028202::1677785788::1678019306::1::::<><>::
+Vides.webp::CompressedTexture2D::5906735466398288348::1678015702::1678019310::1::::<><>::

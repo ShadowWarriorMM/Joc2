@@ -1,0 +1,518 @@
+[gd_scene load_steps=39 format=3 uid="uid://vrn508swae2g"]
+
+[ext_resource type="Texture2D" uid="uid://cmcvutt5vom4" path="res://Fons.jpg" id="3_172fj"]
+[ext_resource type="PackedScene" uid="uid://ckmje1omj81el" path="res://Plataforma.tscn" id="3_326xh"]
+[ext_resource type="PackedScene" uid="uid://c2p1rql77xysj" path="res://Personatge.tscn" id="5_k14tr"]
+[ext_resource type="PackedScene" uid="uid://s2407lugeo" path="res://Paret_esquerra.tscn" id="6_524rr"]
+[ext_resource type="Script" path="res://Cançó.gd" id="6_qs25v"]
+[ext_resource type="Texture2D" uid="uid://h3i7op055kqt" path="res://Fotos/Cor vermell.png" id="6_xcd5x"]
+[ext_resource type="Texture2D" uid="uid://bo38jku2yjb44" path="res://Fotos/Cor gtis (1).png" id="7_rf4du"]
+[ext_resource type="Script" path="res://Vida.gd" id="8_au5v1"]
+[ext_resource type="PackedScene" uid="uid://tmh78ipywy3o" path="res://Persoatge2.tscn" id="8_bni3m"]
+[ext_resource type="Script" path="res://Vida_segona.gd" id="9_wcchs"]
+[ext_resource type="Texture2D" uid="uid://da28c5kik8n4l" path="res://Cor vermell.png" id="10_doach"]
+[ext_resource type="Script" path="res://Vida_tercera.gd" id="10_libi7"]
+[ext_resource type="AudioStream" uid="uid://cyekfpi2076au" path="res://Audios/Hyper Street Fighter II - CPS2 - Guile Stage.mp3" id="10_y5vyx"]
+[ext_resource type="Script" path="res://Vida_segona_primera.gd" id="13_4glao"]
+[ext_resource type="Script" path="res://Vida4.gd" id="13_x8dhr"]
+[ext_resource type="Script" path="res://Vida_segona_segona.gd" id="14_bjb2i"]
+[ext_resource type="Script" path="res://Vida5.gd" id="14_suds5"]
+[ext_resource type="Script" path="res://Vida6.gd" id="15_a7xwx"]
+[ext_resource type="Script" path="res://Vida_segona_tercera.gd" id="15_qp630"]
+[ext_resource type="Texture2D" uid="uid://c5a8nmlwxybsy" path="res://Fotos/Foc.png" id="19_ja2ek"]
+[ext_resource type="PackedScene" uid="uid://btivpsndnxido" path="res://power_up.tscn" id="21_vi7si"]
+[ext_resource type="Script" path="res://Instruccions2.gd" id="22_1wj01"]
+[ext_resource type="Script" path="res://Habilitats.gd" id="23_uc6ro"]
+[ext_resource type="Script" path="res://Inici.gd" id="24_odtic"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ymk1o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_xcd5x")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_owwjk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_xcd5x")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 3.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6u3ql"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_xcd5x")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 3.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u0q6o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p7k6e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Guanya vida",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1dsas"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Guanya vida",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4pvm8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Guanya vida",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6w3tk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8m4ua"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_doach")
+}],
+"loop": true,
+"name": &"Normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rf4du")
+}],
+"loop": true,
+"name": &"Perd vida",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ndefj"]
+size = Vector2(428.484, 32.381)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ciise"]
+size = Vector2(1800.79, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ilxw2"]
+size = Vector2(425.14, 31.9047)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6vh6u"]
+size = Vector2(418.467, 33.3333)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gdv6x"]
+size = Vector2(440.682, 34.2857)
+
+[node name="Joc" type="Node2D"]
+texture_filter = 1
+position = Vector2(-30, -38)
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(-70, 42)
+
+[node name="Paret_esquerra" parent="Node2D" instance=ExtResource("6_524rr")]
+position = Vector2(56, 2)
+
+[node name="Fons" type="Sprite2D" parent="Node2D/Paret_esquerra"]
+position = Vector2(982.25, 496.5)
+scale = Vector2(1.05894, 1.13951)
+texture = ExtResource("3_172fj")
+
+[node name="Paret dreta" parent="Node2D" instance=ExtResource("6_524rr")]
+position = Vector2(1978, -5)
+
+[node name="Plataforma" parent="Node2D" instance=ExtResource("3_326xh")]
+position = Vector2(205, 294)
+
+[node name="Node2D" type="Node2D" parent="Node2D"]
+position = Vector2(935, 451)
+
+[node name="Personatge1" parent="." instance=ExtResource("5_k14tr")]
+position = Vector2(277, 241)
+
+[node name="Vida2" type="AnimatedSprite2D" parent="Personatge1"]
+position = Vector2(-168, -150)
+scale = Vector2(1.10165, 1.17308)
+sprite_frames = SubResource("SpriteFrames_ymk1o")
+animation = &"Normal"
+script = ExtResource("9_wcchs")
+
+[node name="Vida3" type="AnimatedSprite2D" parent="Personatge1"]
+position = Vector2(-31, -148)
+scale = Vector2(1.11951, 1.20513)
+sprite_frames = SubResource("SpriteFrames_owwjk")
+animation = &"Normal"
+script = ExtResource("10_libi7")
+
+[node name="Vida1" type="AnimatedSprite2D" parent="Personatge1"]
+position = Vector2(-303, -146)
+scale = Vector2(1.18317, 1.28164)
+sprite_frames = SubResource("SpriteFrames_6u3ql")
+animation = &"Normal"
+script = ExtResource("8_au5v1")
+
+[node name="Cançó" type="AudioStreamPlayer2D" parent="Personatge1"]
+process_mode = 3
+position = Vector2(-491, -231)
+stream = ExtResource("10_y5vyx")
+volume_db = 6.0
+script = ExtResource("6_qs25v")
+
+[node name="Personatge2" parent="." instance=ExtResource("8_bni3m")]
+position = Vector2(588, 278)
+
+[node name="Vida12" type="AnimatedSprite2D" parent="Personatge2"]
+position = Vector2(1198, -200)
+scale = Vector2(1.27335, 1.30769)
+sprite_frames = SubResource("SpriteFrames_u0q6o")
+animation = &"Normal"
+script = ExtResource("13_4glao")
+
+[node name="Vida22" type="AnimatedSprite2D" parent="Personatge2"]
+position = Vector2(1064, -201)
+scale = Vector2(1.23077, 1.38462)
+sprite_frames = SubResource("SpriteFrames_p7k6e")
+animation = &"Normal"
+script = ExtResource("14_bjb2i")
+
+[node name="Vida32" type="AnimatedSprite2D" parent="Personatge2"]
+position = Vector2(931, -202)
+scale = Vector2(1.18819, 1.30769)
+sprite_frames = SubResource("SpriteFrames_1dsas")
+animation = &"Normal"
+script = ExtResource("15_qp630")
+
+[node name="Vida42" type="AnimatedSprite2D" parent="Personatge2"]
+visible = false
+position = Vector2(803, -205)
+scale = Vector2(1.15931, 1.33808)
+sprite_frames = SubResource("SpriteFrames_4pvm8")
+animation = &"Normal"
+script = ExtResource("13_x8dhr")
+
+[node name="Vida5" type="AnimatedSprite2D" parent="Personatge2"]
+visible = false
+position = Vector2(679, -209)
+scale = Vector2(1.25137, 1.33333)
+sprite_frames = SubResource("SpriteFrames_6w3tk")
+animation = &"Normal"
+script = ExtResource("14_suds5")
+
+[node name="Vida6" type="AnimatedSprite2D" parent="Personatge2"]
+visible = false
+position = Vector2(540, -206)
+scale = Vector2(1.25549, 1.41026)
+sprite_frames = SubResource("SpriteFrames_8m4ua")
+animation = &"Normal"
+script = ExtResource("15_a7xwx")
+
+[node name="Foc" type="Sprite2D" parent="."]
+position = Vector2(260, 966)
+scale = Vector2(1.03621, 2.65)
+texture = ExtResource("19_ja2ek")
+
+[node name="Foc1_Static" type="Area2D" parent="Foc"]
+
+[node name="Foc1_colisió" type="CollisionShape2D" parent="Foc/Foc1_Static"]
+position = Vector2(-1.93063, 0.7547)
+shape = SubResource("RectangleShape2D_ndefj")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Foc/Foc1_Static"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Foc/Foc1_Static/StaticBody2D"]
+position = Vector2(681.329, 25.2831)
+shape = SubResource("RectangleShape2D_ciise")
+
+[node name="Foc2" type="Sprite2D" parent="."]
+position = Vector2(706, 960.125)
+scale = Vector2(1.04907, 2.62143)
+texture = ExtResource("19_ja2ek")
+
+[node name="Foc2_Static" type="Area2D" parent="Foc2"]
+
+[node name="Foc2_colisió" type="CollisionShape2D" parent="Foc2/Foc2_Static"]
+position = Vector2(0.953188, 2.24115)
+shape = SubResource("RectangleShape2D_ilxw2")
+
+[node name="Foc3" type="Sprite2D" parent="."]
+position = Vector2(1153, 967.625)
+scale = Vector2(1.04907, 2.82143)
+texture = ExtResource("19_ja2ek")
+
+[node name="Foc3_Static" type="Area2D" parent="Foc3"]
+
+[node name="Foc3_colisió" type="CollisionShape2D" parent="Foc3/Foc3_Static"]
+position = Vector2(-14.7745, 1.1962)
+scale = Vector2(1, 0.999999)
+shape = SubResource("RectangleShape2D_6vh6u")
+
+[node name="Foc4" type="Sprite2D" parent="."]
+position = Vector2(1628.13, 971)
+scale = Vector2(1.18283, 2.82857)
+texture = ExtResource("19_ja2ek")
+
+[node name="Foc4_Static" type="Area2D" parent="Foc4"]
+
+[node name="Foc4_colisió" type="CollisionShape2D" parent="Foc4/Foc4_Static"]
+position = Vector2(-5.70837, 1.76764)
+shape = SubResource("RectangleShape2D_gdv6x")
+
+[node name="Power_up" parent="." instance=ExtResource("21_vi7si")]
+position = Vector2(1260, 1055)
+
+[node name="Instruccions1" type="RichTextLabel" parent="."]
+offset_left = 334.0
+offset_top = 165.0
+offset_right = 686.0
+offset_bottom = 454.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 23
+text = "INSTRUCCIONS: "
+
+[node name="Info1" type="RichTextLabel" parent="Instruccions1"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 41.0
+offset_right = 449.0
+offset_bottom = 299.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 25
+text = "W---> Salta
+A---> Esquerra
+D---> Dreta
+Space---> Ataca
+Q---> Para el temps
+F---> Bloqueja (mantenir)"
+
+[node name="Instruccions2" type="RichTextLabel" parent="."]
+offset_left = 1201.0
+offset_top = 168.0
+offset_right = 1579.0
+offset_bottom = 418.0
+theme_override_font_sizes/normal_font_size = 23
+text = "INSTRUCCIONS:"
+script = ExtResource("22_1wj01")
+
+[node name="Info2" type="RichTextLabel" parent="Instruccions2"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 42.0
+offset_right = 316.0
+offset_bottom = 339.0
+theme_override_font_sizes/normal_font_size = 23
+text = "Ctrl---> Salta
+Fletxa esquerra---> Esquerra
+Fletxa dreta---> Dreta
+Fletxa amunt--> Ataca
+Fletxa abaix---> Curació (habilitat)
+"
+
+[node name="Timer" type="Timer" parent="Instruccions2"]
+
+[node name="Habilitats" type="RichTextLabel" parent="."]
+visible = false
+offset_left = 327.0
+offset_top = 210.0
+offset_right = 1365.0
+offset_bottom = 483.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 23
+text = "Les dues habilitats són:"
+script = ExtResource("23_uc6ro")
+
+[node name="Explicació habilitats" type="RichTextLabel" parent="Habilitats"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 42.0
+offset_right = 321.0
+offset_bottom = 270.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+text = "-Para el temps (personatge esquerra): Fa una petita animació i para el temps durant 2.75s
+-Curació (personatge dreta): Després de fer una animació cura al personatge fins a 3 vides. 
+PD: Mentre l'animació està activa, el personatge és inmortal."
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Habilitats"]
+layout_mode = 0
+offset_left = 365.0
+offset_top = 4.0
+offset_right = 642.0
+offset_bottom = 256.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+text = "Les habilitats es poden activar un cop només. a no ser que es recolleixi la caixa amb forma de raig "
+
+[node name="Explicacio_bloqueig" type="RichTextLabel" parent="."]
+visible = false
+offset_left = 362.0
+offset_top = 203.0
+offset_right = 756.0
+offset_bottom = 440.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 21
+text = "No es pot bloquejar l'estona que vulguis, té una duració. Pots arribar a bloquejar fins a 3 cops abans que se't trenqui la guardia."
+
+[node name="Inici" type="RichTextLabel" parent="."]
+offset_left = 684.0
+offset_top = 64.0
+offset_right = 1271.0
+offset_bottom = 273.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 22
+text = "APRETEU T PER LLUITAR O ESPAI PER SALTAR A LA SEGUENT DESCRIPCIÓ. 
+ATENCIÓ, NO S'HA PROGRAMAT QUE ES PUGUI TORNAR ENRERA"
+script = ExtResource("24_odtic")
+
+[connection signal="finished" from="Personatge1/Cançó" to="Personatge1" method="_on_can_finished"]
+[connection signal="body_entered" from="Foc/Foc1_Static" to="Personatge1" method="_on_foc_1_static_body_entered"]
+[connection signal="body_entered" from="Foc/Foc1_Static" to="Personatge2" method="_on_foc_1_static_body_entered"]
+[connection signal="body_entered" from="Foc2/Foc2_Static" to="Personatge1" method="_on_foc_2_static_body_entered"]
+[connection signal="body_entered" from="Foc2/Foc2_Static" to="Personatge2" method="_on_foc_2_static_body_entered"]
+[connection signal="body_entered" from="Foc3/Foc3_Static" to="Personatge1" method="_on_foc_3_static_body_entered"]
+[connection signal="body_entered" from="Foc3/Foc3_Static" to="Personatge2" method="_on_foc_3_static_body_entered"]
+[connection signal="body_entered" from="Foc4/Foc4_Static" to="Personatge1" method="_on_foc_4_static_body_entered"]
+[connection signal="body_entered" from="Foc4/Foc4_Static" to="Personatge2" method="_on_foc_4_static_body_entered"]
+[connection signal="body_entered" from="Power_up" to="Personatge1" method="_on_power_up_body_entered"]
+[connection signal="body_entered" from="Power_up" to="Personatge2" method="_on_power_up_body_entered"]
+[connection signal="timeout" from="Instruccions2/Timer" to="Habilitats" method="_on_timer_timeout"]

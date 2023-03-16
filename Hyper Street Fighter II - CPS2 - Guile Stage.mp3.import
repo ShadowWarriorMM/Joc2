@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cgs4ikfg752m8"
+path="res://.godot/imported/Hyper Street Fighter II - CPS2 - Guile Stage.mp3-132178ab9287886dc3c22ccfd0d2c6ff.mp3str"
+
+[deps]
+
+source_file="res://Hyper Street Fighter II - CPS2 - Guile Stage.mp3"
+dest_files=["res://.godot/imported/Hyper Street Fighter II - CPS2 - Guile Stage.mp3-132178ab9287886dc3c22ccfd0d2c6ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

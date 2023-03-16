@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://s2407lugeo"]
+
+[ext_resource type="Texture2D" uid="uid://c44pedkkbkif2" path="res://Fotos/Parets.png" id="1_nd30t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2uuk5"]
+size = Vector2(47.5, 641)
+
+[node name="StaticBody2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(24.25, 321.5)
+shape = SubResource("RectangleShape2D_2uuk5")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 48.0
+offset_bottom = 645.0
+
+[node name="Parets" type="Sprite2D" parent="."]
+position = Vector2(13.5, 510.5)
+scale = Vector2(2.2258, 4.29958)
+texture = ExtResource("1_nd30t")

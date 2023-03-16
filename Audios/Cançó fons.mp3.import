@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b875lsibpdofk"
+path="res://.godot/imported/Cançó fons.mp3-99c9656b811f44a2ec4c1fb348bb0dec.mp3str"
+
+[deps]
+
+source_file="res://Audios/Cançó fons.mp3"
+dest_files=["res://.godot/imported/Cançó fons.mp3-99c9656b811f44a2ec4c1fb348bb0dec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

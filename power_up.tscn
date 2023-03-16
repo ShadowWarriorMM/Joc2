@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://btivpsndnxido"]
+
+[ext_resource type="Script" path="res://Power_up.gd" id="1_k0ks4"]
+[ext_resource type="Texture2D" uid="uid://da28c5kik8n4l" path="res://Cor vermell.png" id="2_3hs8p"]
+[ext_resource type="Texture2D" uid="uid://crcyrl50rq3kq" path="res://Fotos/Caixa_misteriosa.png" id="3_1t5dh"]
+[ext_resource type="Texture2D" uid="uid://ck8u1qw65xoil" path="res://Fotos/Raig.png" id="4_do7j7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cy732"]
+size = Vector2(80.0391, 79.4688)
+
+[node name="Power_up" type="Area2D"]
+position = Vector2(947, 681)
+script = ExtResource("1_k0ks4")
+
+[node name="Colisió_caixa" type="CollisionShape2D" parent="."]
+position = Vector2(-404, -332)
+shape = SubResource("RectangleShape2D_cy732")
+disabled = true
+
+[node name="Cor" type="Sprite2D" parent="Colisió_caixa"]
+visible = false
+position = Vector2(1.01953, 0.734375)
+scale = Vector2(0.88483, 0.996595)
+texture = ExtResource("2_3hs8p")
+
+[node name="Caixa" type="Sprite2D" parent="Colisió_caixa"]
+visible = false
+position = Vector2(0.514648, 0.425781)
+scale = Vector2(0.134568, 0.12964)
+texture = ExtResource("3_1t5dh")
+
+[node name="Habilitat" type="Sprite2D" parent="Colisió_caixa"]
+visible = false
+position = Vector2(1.70459, 0.830079)
+scale = Vector2(0.500769, 0.266918)
+texture = ExtResource("4_do7j7")
+
+[node name="Temps_spawn" type="Timer" parent="."]
+wait_time = 15.25
+one_shot = true
+
+[connection signal="timeout" from="Temps_spawn" to="." method="_on_temps_spawn_timeout"]

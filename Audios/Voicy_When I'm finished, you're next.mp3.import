@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpv8gkvo03iqx"
+path="res://.godot/imported/Voicy_When I'm finished, you're next.mp3-ed5ac56868fad9eb59a7f9451a86a9c4.mp3str"
+
+[deps]
+
+source_file="res://Audios/Voicy_When I'm finished, you're next.mp3"
+dest_files=["res://.godot/imported/Voicy_When I'm finished, you're next.mp3-ed5ac56868fad9eb59a7f9451a86a9c4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

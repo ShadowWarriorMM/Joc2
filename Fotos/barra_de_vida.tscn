@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7revufg21mph"]
+
+[ext_resource type="Texture2D" uid="uid://bma45m1gyswf8" path="res://fondo_barra.png" id="1_jw75f"]
+[ext_resource type="Texture2D" uid="uid://dji6itdxhn7uq" path="res://borde_barra.png" id="2_0hslc"]
+[ext_resource type="Texture2D" uid="uid://bpuwbqunnij40" path="res://progreso_barra.png" id="3_mmh6f"]
+
+[node name="Barra de vida" type="CanvasLayer"]
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_left = 117.0
+offset_top = 145.0
+offset_right = 414.0
+offset_bottom = 183.0
+texture_under = ExtResource("1_jw75f")
+texture_over = ExtResource("2_0hslc")
+texture_progress = ExtResource("3_mmh6f")

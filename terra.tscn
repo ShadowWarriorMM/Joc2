@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmn3xa28foi1t"]
+
+[ext_resource type="Texture2D" uid="uid://brnd2dmd27hrn" path="res://Espines.png" id="1_xkpqu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4getk"]
+size = Vector2(1056.5, 64)
+
+[node name="Terra" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(573.75, 613)
+shape = SubResource("RectangleShape2D_4getk")
+
+[node name="Espines" type="Sprite2D" parent="."]
+position = Vector2(158, 615)
+scale = Vector2(1.65508, 2.275)
+texture = ExtResource("1_xkpqu")
+
+[node name="Espines2" type="Sprite2D" parent="."]
+position = Vector2(376, 614)
+scale = Vector2(1.65508, 2.275)
+texture = ExtResource("1_xkpqu")
+
+[node name="Espines3" type="Sprite2D" parent="."]
+position = Vector2(598, 612)
+scale = Vector2(1.65508, 2.275)
+texture = ExtResource("1_xkpqu")
+
+[node name="Espines5" type="Sprite2D" parent="."]
+position = Vector2(1017.47, 612)
+scale = Vector2(1.3313, 2.275)
+texture = ExtResource("1_xkpqu")
+
+[node name="Espines4" type="Sprite2D" parent="."]
+position = Vector2(818, 614)
+scale = Vector2(1.65508, 2.275)
+texture = ExtResource("1_xkpqu")

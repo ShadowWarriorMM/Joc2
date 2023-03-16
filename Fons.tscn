@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1qxr1uau0ira"]
+
+[ext_resource type="Texture2D" uid="uid://cmcvutt5vom4" path="res://Fons.jpg" id="1_lq205"]
+
+[node name="Fons" type="Sprite2D"]
+position = Vector2(576.063, 324.375)
+scale = Vector2(0.648548, 0.715123)
+texture = ExtResource("1_lq205")
