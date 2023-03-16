@@ -8,27 +8,27 @@ Armstrong.gd::GDScript::-1::1678020726::0::1::::<>CharacterBody2D<>::
 Cançó.gd::GDScript::-1::1678390248::0::1::::<>AudioStreamPlayer2D<>::
 colisió_caixa.tscn::PackedScene::7234319288409899707::1678287228::0::1::::<><>::uid://dwf2xoxldanx3
 Cor vermell.png::CompressedTexture2D::7217009074314728513::1678020532::1678026340::1::::<><>::
-default_env.tres::Environment::2673150640681258434::1678625492::0::1::::<><>::
+default_env.tres::Environment::2673150640681258434::1678951012::0::1::::<><>::
 Explicacio_bloqueig.gd::GDScript::-1::1678387750::0::1::::<>RichTextLabel<>::
 fondo_barra.png::CompressedTexture2D::3230501844707398259::1677930626::1677930626::1::::<><>::
 Fons.gd::GDScript::-1::1678220606::0::1::::<>Sprite2D<>::
 Fons.jpg::CompressedTexture2D::165310236704809749::1677784090::1677784106::1::::<><>::
 Fons.tscn::PackedScene::4245788908207822570::1677784282::0::1::::<><>::uid://cmcvutt5vom4
-Habilitats.gd::GDScript::-1::1678625494::0::1::::<>RichTextLabel<>::
+Habilitats.gd::GDScript::-1::1678951012::0::1::::<>RichTextLabel<>::
 Hyper Street Fighter II - CPS2 - Guile Stage.mp3::AudioStreamMP3::5232908841203048597::1678224986::1678225194::1::::<><>::
 icon.png::CompressedTexture2D::8689979765112906819::1677747160::1677770822::1::::<><>::
 Inici.gd::GDScript::-1::1678389338::0::1::::<>RichTextLabel<>::
 Instruccions1.gd::GDScript::-1::1678387890::0::1::::<>RichTextLabel<>::
 Instruccions2.gd::GDScript::-1::1678389812::0::1::::<>RichTextLabel<>::
 Joc.gd::GDScript::-1::1678220314::0::1::::<>Node2D<>::
-Joc.tscn::PackedScene::1509904397850349068::1678625492::0::1::::<><>::uid://cmcvutt5vom4<>uid://ckmje1omj81el<>uid://c2p1rql77xysj<>uid://s2407lugeo<>res://Cançó.gd<>uid://h3i7op055kqt<>uid://bo38jku2yjb44<>res://Vida.gd<>uid://tmh78ipywy3o<>res://Vida_segona.gd<>uid://da28c5kik8n4l<>res://Vida_tercera.gd<>uid://cyekfpi2076au<>res://Vida_segona_primera.gd<>res://Vida4.gd<>res://Vida_segona_segona.gd<>res://Vida5.gd<>res://Vida6.gd<>res://Vida_segona_tercera.gd<>uid://c5a8nmlwxybsy<>uid://btivpsndnxido<>res://Instruccions2.gd<>res://Habilitats.gd<>res://Inici.gd
+Joc.tscn::PackedScene::1509904397850349068::1678951012::0::1::::<><>::uid://cmcvutt5vom4<>uid://ckmje1omj81el<>uid://c2p1rql77xysj<>uid://s2407lugeo<>res://Cançó.gd<>uid://h3i7op055kqt<>uid://bo38jku2yjb44<>res://Vida.gd<>uid://tmh78ipywy3o<>res://Vida_segona.gd<>uid://da28c5kik8n4l<>res://Vida_tercera.gd<>uid://cyekfpi2076au<>res://Vida_segona_primera.gd<>res://Vida4.gd<>res://Vida_segona_segona.gd<>res://Vida5.gd<>res://Vida6.gd<>res://Vida_segona_tercera.gd<>uid://c5a8nmlwxybsy<>uid://btivpsndnxido<>res://Instruccions2.gd<>res://Habilitats.gd<>res://Inici.gd
 Node2D2.gd::GDScript::-1::1677967026::0::1::::<>Sprite2D<>::
 Node2D.tscn::PackedScene::4805713950266670478::1678023804::0::1::::<><>::
 Paret_esquerra.tscn::PackedScene::1142685571919550::1678213140::0::1::::<><>::uid://c44pedkkbkif2
 Persoatge2.gd::GDScript::-1::1678385550::0::1::::<>CharacterBody2D<>::
 Persoatge2.tscn::PackedScene::1358844472869141430::1678349184::0::1::::<><>::res://Persoatge2.gd<>uid://dscyv5jt6uxph<>uid://cfvwodt16pm31<>uid://esd0dsfb2epf<>uid://b3y2ob8kj4rcm<>uid://s3fh5nvqqbev<>uid://dkia6racbdw0r
 Personatge2.tscn::PackedScene::13342967498601305::1678020742::0::1::::<><>::res://Armstrong.gd<>res://Senador armstrong.png<>uid://djwl2ltjxpxn0<>uid://dn4lbwqhafkhw<>res://Senador armstrong (3).png
-Personatge.gd::GDScript::-1::1678625494::0::1::::<>CharacterBody2D<>::
+Personatge.gd::GDScript::-1::1678951014::0::1::::<>CharacterBody2D<>::
 Personatge.tscn::PackedScene::6700515671096363973::1678390462::0::1::::<><>::uid://cqjldlpq8qkbq<>res://Personatge.gd<>uid://dgni8nw7wu566<>res://Spritesheet.gd<>uid://c1awk4o4se80<>uid://b3y2ob8kj4rcm<>uid://dg1xw4atw0kga<>uid://br5dy6mwqcb5d<>uid://ge0nkdy4gh35
 Plataforma.png::CompressedTexture2D::7912944842898212486::1677783726::1677783730::1::::<><>::
 Plataforma.tscn::PackedScene::5500057320718705939::1678023786::0::1::::<><>::uid://dk0dbsta7nxac
@@ -41,7 +41,7 @@ Spritesheet.gd::GDScript::-1::1678226442::0::1::::<>AnimatedSprite2D<>::
 terra.tscn::PackedScene::3257264910425870663::1677943462::0::1::::<><>::uid://brnd2dmd27hrn
 Vida1.gd::GDScript::-1::1678030098::0::1::::<>AnimatedSprite2D<>::
 Vida2.gd::GDScript::-1::1678029952::0::1::::<>AnimatedSprite2D<>::
-Vida3.gd::GDScript::-1::1678625494::0::1::::<>AnimatedSprite2D<>::
+Vida3.gd::GDScript::-1::1678951014::0::1::::<>AnimatedSprite2D<>::
 Vida4.gd::GDScript::-1::1678212354::0::1::::<>AnimatedSprite2D<>::
 Vida5.gd::GDScript::-1::1678212354::0::1::::<>AnimatedSprite2D<>::
 Vida6.gd::GDScript::-1::1678212356::0::1::::<>AnimatedSprite2D<>::
